@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    min-height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid #aaa;
+}
+.child {
+    min-height: 50px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.settings {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    background: #555;
+    right: 50px;
+    margin-top: -10px;
+}
+.button {
+
+}
